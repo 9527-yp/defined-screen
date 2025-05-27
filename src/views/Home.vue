@@ -1,9 +1,9 @@
 <template>
-    <v-scale-screen width="1920" height="1080">
+    <!-- <v-scale-screen width="1920" height="1080"> -->
         <div class="home">
-            <div class="unity-box">
+            <!-- <div class="unity-box">
                 <iframe ref="iframeRef" width="100%" height="100%" scrolling="no" src="/CustomSchoolWEBGL/index.html" frameborder="0"></iframe>
-            </div>
+            </div> -->
             <!-- <el-button style="float: right;" @click="editBtn">编辑</el-button> -->
             <!-- 选中的边框 -->
             <div class="border-item" v-if="borderShow" :style="borderStyle"></div>
@@ -35,7 +35,7 @@
             <!-- deepseek问答弹框 -->
             <DeepSeek v-model:AIVisible="AIVisible" />
         </div>
-    </v-scale-screen>
+    <!-- </v-scale-screen> -->
 </template>
 
 <script setup>
@@ -186,7 +186,7 @@ const openDeepSeek = () => {
     position: relative;
     z-index: 1;
     // background: url('@/assets/home/zhny-bag.png');
-    // background: url('@/assets/home/LZY-bag.png');
+    background: url('@/assets/home/LZY-bag.png');
     // background-size: cover;
     // background-position: center;
     // background-repeat: no-repeat;
