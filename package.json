@@ -1,0 +1,36 @@
+{
+  "name": "zhny-screen-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@videojs-player/vue": "^1.0.0",
+    "@vitejs/plugin-legacy": "^6.1.1",
+    "animate.css": "^4.1.1",
+    "axios": "^1.8.4",
+    "echarts": "^5.6.0",
+    "element-plus": "^2.9.6",
+    "pinia": "^3.0.1",
+    "pinia-plugin-persistedstate": "^4.2.0",
+    "three": "^0.174.0",
+    "v-scale-screen": "^2.3.0",
+    "video.js": "^7.21.7",
+    "vue": "^3.5.13",
+    "vue-route": "^1.5.1",
+    "vue-router": "^4.5.0",
+    "vue3-video-play": "^1.3.2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.5.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "electron": "^36.3.1",
+    "electron-builder": "^26.0.12",
+    "sass": "^1.85.1",
+    "vite": "^6.2.0"
+  }
+}

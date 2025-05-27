@@ -1,0 +1,118 @@
+
+{
+    "container": {
+        "width": 1920,
+        "height": 1080,
+        "title": "农业物联网数据监测可视化平台"
+    },
+    "blocks": [
+        {
+            "top": 144,
+            "left": 24,
+            "width": 460,
+            "height": 280,
+            "zIndex": 1,
+            "title": "项目概况",
+            "moduleTitle": "项目概况模块",
+            "editShow": false,
+            "activeShow": true,
+            "dragShow": false,
+            "lookShow": true,
+            "props": {
+                "textValue" : ""
+            },
+            "id": 555,
+            "key": "STXYProjectIntroduce"
+        },
+        {
+            "top": 448,
+            "left": 24,
+            "width": 460,
+            "height": 280,
+            "zIndex": 1,
+            "title": "年度碳指标配额情况",
+            "moduleTitle": "年度碳指标配额情况模块",
+            "editShow": false,
+            "activeShow": false,
+            "dragShow": false,
+            "lookShow": true,
+            "props": {
+                "textValue" : ""
+            },
+            "id": 5555,
+            "key": "STXYYearCarbonQuota"
+        },
+        {
+            "top": 752,
+            "left": 24,
+            "width": 460,
+            "height": 280,
+            "zIndex": 1,
+            "title": "各系统碳排放量分析",
+            "moduleTitle": "各系统碳排放量分析模块",
+            "editShow": false,
+            "activeShow": false,
+            "dragShow": false,
+            "lookShow": true,
+            "props": {
+                "textValue" : ""
+            },
+            "id": 6666,
+            "key": "STXYSystemCarbonAnalyse"
+        },
+        {
+            "top": 752,
+            "left": 532,
+            "width": 856,
+            "height": 280,
+            "zIndex": 1,
+            "title": "碳排放量分析",
+            "moduleTitle": "碳排放量分析模块",
+            "editShow": false,
+            "activeShow": false,
+            "dragShow": false,
+            "lookShow": true,
+            "props": {
+                "textValue" : ""
+            },
+            "id": 666,
+            "key": "STXYCarbonAnalyse"
+        },
+        {
+            "top": 144,
+            "left": 1437,
+            "width": 460,
+            "height": 584,
+            "zIndex": 1,
+            "title": "建筑碳排放占比",
+            "moduleTitle": "建筑碳排放占比模块",
+            "editShow": false,
+            "activeShow": false,
+            "dragShow": false,
+            "lookShow": true,
+            "props": {
+                "textValue" : ""
+            },
+            "id": 7777,
+            "key": "STXYArchitecCarbon"
+        },
+        {
+            "top": 752,
+            "left": 1437,
+            "width": 460,
+            "height": 280,
+            "zIndex": 1,
+            "title": "碳排放预测",
+            "moduleTitle": "碳排放预测模块",
+            "editShow": false,
+            "activeShow": false,
+            "dragShow": false,
+            "lookShow": true,
+            "props": {
+                "textValue" : ""
+            },
+            "id": 77,
+            "key": "STXYCarbonForecast"
+        }
+    ]
+}
